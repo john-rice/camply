@@ -5,6 +5,7 @@ theme:
     favicon: _static/camply.png
     logo: _static/camply.png
     name: material
+    custom_dir: docs/overrides
     features:
         - navigation.tracking
         - content.code.annotate
@@ -45,6 +46,10 @@ nav:
     - Changelog 📝: https://github.com/juftin/camply/releases
 extra:
     generator: false
+    analytics:
+        provider: custom
+        umami_site_id: 17e6e641-5d7c-496a-abb0-9e4cc9eb0700
+        umami_script: https://umami.juftin.dev/script.js
 markdown_extensions:
     - toc:
           permalink: "#"
